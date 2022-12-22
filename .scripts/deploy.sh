@@ -10,7 +10,7 @@ echo "Deployment started ..."
 # Pull the latest version of the app
 git pull origin main
 
-# Install composer dependencies
+#  Install composer dependencies
 composer update --no-dev --no-interaction --prefer-dist --optimize-autoloader
 
 # Clear the old cache
