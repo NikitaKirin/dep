@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: "cd /home/c65638/dep.na4u.ru/dep && ./.scripts/deploy.sh"
+          script: "cd /home/c65638/dep.na4u.ru/dep"
           run: composer install
